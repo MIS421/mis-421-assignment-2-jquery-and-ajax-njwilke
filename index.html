@@ -4,13 +4,26 @@
 
 <head>
 
-  <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/themes/pepper-grinder/jquery-ui.css" integrity="sha256-euUleabwQ+xE0MxF81jU3JNnOqBbUcfd8hTDl7h7lhk=" crossorigin="anonymous">
+    <title>Slippery Slope Search</title>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.14.0/jquery-ui.min.js" integrity="sha256-Fb0zP4jE3JHqu+IBB9YktLcSjI1Zc6J2b6gTjB0LpoM=" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script.js"></script>
 
 </head>
 
 <body>
-
-  <script type="text/javascript" src="./script.js"></script>
+    <div id="background">
+        <h1 id="engineName" onclick="changeBackground()">Slippery Slope Search</h1>
+        <input id="query" placeholder="Enter Search Here"/>
+        <button onclick="clickSearch()" id="primaryButton">Search</button>
+        <button onclick="clickTime()" id="primaryButton">Time</button>
+        <button onclick="clickLucky()" id="luckyButton">I'm Feeling Lucky</button>
+        <div id="searchResults" title="Slippery Slope"></div>
+        <div id="time" title="Time"></div>
+    </div>
 
 </body>
 

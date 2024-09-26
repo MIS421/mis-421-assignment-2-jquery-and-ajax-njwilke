@@ -1,1 +1,40 @@
- 
+body {
+    width: 1000px;
+    height: 800px;
+    background-size: 1300px;
+    background-image: url("https://images.unsplash.com/photo-1515612260223-1eb3eca4f1c0?q=80&w=1778&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-color: #cccccc;
+}
+
+h1{
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+
+#searchResults{
+    display: none;
+}
+
+#time{
+    display: none;
+}
+
+#primaryButton{
+    background-color: #555555;
+    color: ghostwhite;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#luckyButton{
+    background-color: #50C878;
+    color: black;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+#query{
+    border: 2px solid black;
+    font-size: 16px;
+    border-radius: 4px;
+}
